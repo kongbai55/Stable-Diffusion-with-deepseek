@@ -1,3 +1,6 @@
+# Stable Diffusion with deepseek
+通过deepseek使用自然语言控制stable diffusion webui进行文生图，可以选择自己风格的lora模型
+
 # Stable Diffusion web UI
 A web interface for Stable Diffusion, implemented using Gradio library.
 
@@ -203,3 +206,4 @@ Licenses for borrowed code can be found in `Settings -> Licenses` screen, and al
 - Hypertile - tfernd - https://github.com/tfernd/HyperTile
 - Initial Gradio script - posted on 4chan by an Anonymous user. Thank you Anonymous user.
 - (You)
+
