@@ -3,7 +3,6 @@ import base64
 import os
 from PIL import Image
 from io import BytesIO
-import subprocess
 import tempfile
 # DeepSeek API 配置
 DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY", "sk-91a54db58fc64524b68957de65517a57")
