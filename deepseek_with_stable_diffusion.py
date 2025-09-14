@@ -35,7 +35,8 @@ choose_model_name = input("请输入模型的名字：（直接回车为默认�
 options_url = "http://127.0.0.1:7860/sdapi/v1/options"
 if choose_model_name == '':
     payload = {"sd_model_checkpoint": model_name}
-else:payload = {"sd_model_checkpoint": choose_model_name}
+else:
+    payload = {"sd_model_checkpoint": choose_model_name}
 requests.post(options_url, json=payload)
 
 current_model = requests.get(options_url).json()["sd_model_checkpoint"]
